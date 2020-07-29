@@ -33,7 +33,7 @@
                 </li>
 
                 <li class="<?php if(isset($active6)){echo $active6;}?>">
-                    <a href="about.php"><i class="fa fa-smile-o"></i> <span>Acerca del autor</span></a>
+                    <a href="Users.php"><i class="fa fa-smile-o"></i> <span>Usuarios</span></a>
                 </li>
 
             </ul>

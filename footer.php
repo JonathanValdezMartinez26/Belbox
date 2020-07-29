@@ -1,9 +1,9 @@
 
         <footer class="main-footer"><!-- /.content-wrapper -->
             <div class="pull-right hidden-xs">
-              <b>Version beta</b> 1.5
+              <b>Versión</b> 1.0.0
             </div>
-            <strong>Copyright &copy; 2017 <a target="_blank" href="https://github.com/amnersaucedososa">Soporte</a>.</strong> by: <a target="_blank" href="https://github.com/amnersaucedososa">Abisoft</a>
+            <strong>Copyright &copy; 2020 Todos los Derechos Reservados</a>.</strong> Express Logistics Ramy</a>
         </footer><!-- ./wrapper -->
     </div>
 
