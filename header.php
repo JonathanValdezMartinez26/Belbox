@@ -2,8 +2,8 @@
     <div class="wrapper">
         <header class="main-header">
             <a href="home.php" class="logo"><!-- Logo -->
-                <span class="logo-mini"><b>B</b>EL</span>
-                <span class="logo-lg"><b>Bel</b>Box</span> 
+                <span class="logo-mini"><b>R</b>AMY</span>
+                <span class="logo-lg"><b>Express</b>Logistic Ramy</span> 
             </a>
             <nav class="navbar navbar-static-top">
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"><!-- Sidebar toggle button-->
