@@ -36,21 +36,21 @@ if(!empty($_POST) && isset($_SESSION["user_id"])){
 		if ($query) {
 			// echo "archivo agregado con exito";
 			// $success=sha1(md5("exito"));
-			header("location: ../newfile.php?success");
+			header("location: ../newfile?success");
 		}else{
 			// echo "no se pudo, subir hubo un error".mysqli_error($con)."<br>.".mysqli_errno($con);
 			
-			header("location: ../newfile.php?error");
+			header("location: ../newfile?error");
 		}
 
 		}else{
 			// echo "el archivo no se subio por peso maximo";
-			header("location: ../newfile.php?error2&max_size");
+			header("location: ../newfile?error2&max_size");
 		}
 
 	}else{
 			// echo "el archivo no se subio por peso maximo 2";
-			header("location: ../newfile.php?error3&fatal");
+			header("location: ../newfile?error3&fatal");
 	}
 }
 

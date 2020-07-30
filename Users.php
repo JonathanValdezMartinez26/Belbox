@@ -9,8 +9,8 @@
         <section class="content-header"><!-- Content Header (Page header) -->
             <h1>Alta Usuarios</h1>
             <ol class="breadcrumb">
-                <li><a href="home.php"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">Sobre el autor</li>
+                <li><a href="Home"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li class="active">Usuarios</li>
             </ol>
         </section>
         <section class="content"><!-- Main content -->

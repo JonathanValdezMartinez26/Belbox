@@ -13,27 +13,11 @@
                 <li class="header">NAVEGACIÓN</li>
 
                 <li class="<?php if(isset($active1)){echo $active1;}?>">
-                    <a href="Home"><i class="fa fa-user"></i> <span>Mi perfil</span></a>
-                </li>
-
-                <li class="<?php if(isset($active2)){echo $active2;}?>">
-                    <a href="Myfiles"><i class="fa fa-archive"></i> <span>Mis archivos</span></a>
+                    <a href="HomeUser"><i class="fa fa-user"></i> <span>Mi perfil</span></a>
                 </li>
 
                 <li class="<?php if(isset($active3)){echo $active3;}?>">
-                    <a href="Shared"><i class="fa fa-globe"></i> <span>Compartidos conmigo</span></a>
-                </li>
-
-                <li class="<?php if(isset($active4)){echo $active4;}?>">
-                    <a href="Newfolder"><i class="fa fa-folder"></i> <span>Nueva carpeta</span></a>
-                </li>
-
-                <li class="<?php if(isset($active5)){echo $active5;}?>">
-                    <a href="Newfile"><i class="fa fa-upload"></i> <span>Nuevo Archivo</span></a>
-                </li>
-
-                <li class="<?php if(isset($active6)){echo $active6;}?>">
-                    <a href="Users"><i class="fa fa-smile-o"></i> <span>Usuarios</span></a>
+                    <a href="SharedUser"><i class="fa fa-globe"></i> <span>Compartidos conmigo</span></a>
                 </li>
 
             </ul>

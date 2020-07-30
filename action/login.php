@@ -23,15 +23,25 @@
 
 		if ($row = mysqli_fetch_array($query)) 
 		{
-			if ($row['is_active']>0) { //comprovamos que el usuario este activo
+			if ($row['is_active']>0) //comprovamos que el usuario este activo
+            {
+                if ($row['is_admin'] > 0) //comprovamos que el usuario sea admin
+                {
+                    $_SESSION['user_id'] = $row['id'];
 
-					$_SESSION['user_id'] = $row['id'];
+                    print "Cargando ... $email";
+                    print "<script>window.location='../Home';</script>";
 
-					print "Cargando ... $email";
-					print "<script>window.location='../home.php';</script>";
-				
-				
-			}else{
+                }
+                else
+                {
+                    $_SESSION['user_id'] = $row['id'];
+
+                    print "Cargando ... $email";
+                    print "<script>window.location='../HomeUser';</script>";
+                }
+            }
+			else {
 				$error=sha1(md5("cuenta inactiva"));
 				header("location: ../index.php?error=$error");
 			}

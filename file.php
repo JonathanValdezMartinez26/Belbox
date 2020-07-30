@@ -89,18 +89,7 @@ else if ($go==false && !$is_owner){
         <section class="content"><!-- Main content -->
             <div class="row"><!-- Small boxes (Stat box) -->
                 <div class="col-lg-6 col-xs-6 col-md-offset-3">
-                    <div class="btn-group  pull-right"> 
 
-                        <a href="action/dwnfl.php?code=<?php echo $code;?>&id=<?php echo $file_id;?>&count=<?php echo $file_count;?>" class="btn btn-default"><i class="fa fa-download"></i> Descargar</a>
-                    </div>
-                    <?php
-                       $url=$_SERVER["HTTP_HOST"]."/project/abisoft/belbox/file.php?code=".$_GET['code'];
-                    ?>
-                    <div style="padding-right:6px;" class="btn-group  pull-right">
-                        <p style="display: none;" id="copy"><?php echo $url?></p>
-                        <a onclick="copylink('copy')" class="btn btn-default"><i class="fa fa-link"></i> Copiar enlace</a>
-                    </div>
-                        <br>
                     <?php if(mysqli_num_rows($file)==0):?>
                         <h1>404</h1>
                         <?php else:?>
@@ -200,15 +189,5 @@ else if ($go==false && !$is_owner){
 <?php endif;?>
 
 
-<script>
-    function copylink(id) {
-    var aux = document.createElement("input");
-    aux.setAttribute("value", document.getElementById(id).innerHTML);
-    document.body.appendChild(aux);
-    aux.select();
-    document.execCommand("copy");
-    document.body.removeChild(aux);
-    }
-</script>
 
 <?php include "footer.php"; ?>

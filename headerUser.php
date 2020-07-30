@@ -26,10 +26,10 @@
                                 </li>
                                 <li class="user-footer"><!-- Menu Footer-->
                                     <div class="pull-left">
-                                        <a href="Home" class="btn btn-default btn-flat">Mi perfil</a>
+                                        <a href="HomeUser" class="btn btn-default btn-flat">Mi perfil</a>
                                     </div>
                                     <div class="pull-right">
-                                        <a href="action/logout.php" class="btn btn-default btn-flat">Salir</a>
+                                        <a href="action/logout" class="btn btn-default btn-flat">Salir</a>
                                     </div>
                                 </li>
                             </ul>
